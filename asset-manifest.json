@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/minimalisticweather/static/css/main.96eca318.css",
+    "main.css": "/minimalisticweather/static/css/main.c4fbb8bf.css",
     "main.js": "/minimalisticweather/static/js/main.a8df143f.js",
+    "static/media/NotoSans-SemiBold.ttf": "/minimalisticweather/static/media/NotoSans-SemiBold.bd8f66c37701f36cc43f.ttf",
     "static/media/SKCuriosity-ExtraBold.ttf": "/minimalisticweather/static/media/SKCuriosity-ExtraBold.ff11e037a39acbf35c92.ttf",
     "static/media/SKCuriosity-SemiBold.ttf": "/minimalisticweather/static/media/SKCuriosity-SemiBold.3e4b05032b6a793b8ea3.ttf",
     "static/media/SKCuriosity-Regular.ttf": "/minimalisticweather/static/media/SKCuriosity-Regular.6e0723d8a42429b1b9b9.ttf",
     "index.html": "/minimalisticweather/index.html",
-    "main.96eca318.css.map": "/minimalisticweather/static/css/main.96eca318.css.map",
+    "main.c4fbb8bf.css.map": "/minimalisticweather/static/css/main.c4fbb8bf.css.map",
     "main.a8df143f.js.map": "/minimalisticweather/static/js/main.a8df143f.js.map"
   },
   "entrypoints": [
-    "static/css/main.96eca318.css",
+    "static/css/main.c4fbb8bf.css",
     "static/js/main.a8df143f.js"
   ]
 }
