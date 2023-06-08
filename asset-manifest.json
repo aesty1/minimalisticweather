@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/minimalisticweather/static/css/main.3d49f8fc.css",
-    "main.js": "/minimalisticweather/static/js/main.a1615b22.js",
+    "main.css": "/minimalisticweather/static/css/main.7d0c38d6.css",
+    "main.js": "/minimalisticweather/static/js/main.1b2136cb.js",
     "static/media/NotoSans-SemiBold.ttf": "/minimalisticweather/static/media/NotoSans-SemiBold.bd8f66c37701f36cc43f.ttf",
     "static/media/SKCuriosity-ExtraBold.ttf": "/minimalisticweather/static/media/SKCuriosity-ExtraBold.ff11e037a39acbf35c92.ttf",
     "static/media/SKCuriosity-SemiBold.ttf": "/minimalisticweather/static/media/SKCuriosity-SemiBold.3e4b05032b6a793b8ea3.ttf",
@@ -11,11 +11,11 @@
     "static/media/thermometer.jpg": "/minimalisticweather/static/media/thermometer.0e4b72652dbe53d01bab.jpg",
     "static/media/drop.jpg": "/minimalisticweather/static/media/drop.d0481af7a7d83ba4e40d.jpg",
     "index.html": "/minimalisticweather/index.html",
-    "main.3d49f8fc.css.map": "/minimalisticweather/static/css/main.3d49f8fc.css.map",
-    "main.a1615b22.js.map": "/minimalisticweather/static/js/main.a1615b22.js.map"
+    "main.7d0c38d6.css.map": "/minimalisticweather/static/css/main.7d0c38d6.css.map",
+    "main.1b2136cb.js.map": "/minimalisticweather/static/js/main.1b2136cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d49f8fc.css",
-    "static/js/main.a1615b22.js"
+    "static/css/main.7d0c38d6.css",
+    "static/js/main.1b2136cb.js"
   ]
 }
