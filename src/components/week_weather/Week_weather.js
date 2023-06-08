@@ -22,7 +22,7 @@ class Week_weather extends Component {
     formatTime(time) {
         const date = new Date(time);
         const day = date.getDate();
-        const month = date.toLocaleString('en-US', {month: 'long'});
+        const month = date.toLocaleString('ru-RU', {month: 'long'});
         return `${day} ${month}`;
     }
 
@@ -64,21 +64,21 @@ class Week_weather extends Component {
                 <p className='very_small_grey_text block_title'>Погода на неделю</p>
                 <div className='week_weather_items__container'>
                     <div className='week_weather_item_wrapper'>
-                        <p className='very_small_grey_text week_weather_item_text week_weather_item_day'>Today</p>
+                        <p className='very_small_grey_text week_weather_item_text week_weather_item_day'>Сегодня</p>
                         <img className='week_weather_item_icon small_icon' src={this.state.day_icon.get("day0")}/>
-                        <p className='small_black_text week_weather_item_text week_weather_item_temp'>{this.state.day_weather.get("day0")}</p>
+                        <p className='small_black_text week_weather_item_text week_weather_item_temp'>{this.state.day_weather.get("day0")}°</p>
                     </div>
                     <hr/>
                     <div className='week_weather_item_wrapper'>
                         <p className='very_small_grey_text week_weather_item_text week_weather_item_day'>{this.formatTime(this.state.day_date.get("day1"))}</p>
                         <img className='week_weather_item_icon small_icon' src={this.state.day_icon.get("day1")}/>
-                        <p className='small_black_text week_weather_item_text week_weather_item_temp'>{this.state.day_weather.get("day1")}</p>
+                        <p className='small_black_text week_weather_item_text week_weather_item_temp'>{this.state.day_weather.get("day1")}°</p>
                     </div>
                     <hr/>
                     <div className='week_weather_item_wrapper'>
                         <p className='very_small_grey_text week_weather_item_text week_weather_item_day'>{this.formatTime(this.state.day_date.get("day2"))}</p>
                         <img className='week_weather_item_icon small_icon' src={this.state.day_icon.get("day2")}/>
-                        <p className='small_black_text week_weather_item_text week_weather_item_temp'>{this.state.day_weather.get("day2")}</p>
+                        <p className='small_black_text week_weather_item_text week_weather_item_temp'>{this.state.day_weather.get("day2")}°</p>
                     </div>
                 </div>
                 
