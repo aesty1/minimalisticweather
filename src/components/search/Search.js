@@ -1,9 +1,8 @@
-import './Search.css';
-import { Component } from 'react';
+import React, { Component } from 'react';
 
 class Search extends Component {
     state = {
-        data: []
+        data: ''
     }
 
     onLabelChange = (e) => {
@@ -11,30 +10,29 @@ class Search extends Component {
     }
 
     handleKeyDown = (e) => {
-        let word = e.target.value;
-        // Разбиваем строку на массив слов
-        var words = word.split(" ");
-
-        // Выбираем первое слово
-        var firstWord = words[0];
-
-        // Создаем новую строку, содержащую только первое слово
-        var result = firstWord;
-
         if (e.keyCode === 13) {
-            console.log(result)
+            let word = this.state.data;
+            // Разбиваем строку на массив слов
+            var words = word.split(" ");
+
+            // Выбираем первое слово
+            var firstWord = words[0];
+
             // Вызов переданного метода updateData с переданным значением
-            this.props.updateData(result);
-            e.target.value = "";
+            this.props.updateData(firstWord);
+
+            // Очищаем поле ввода
+            this.setState({ data: '' });
         }
-       
     }
 
     render() {
         return (
             <div className="field__container">
                 <input
+                    onChange={this.onLabelChange}
                     onKeyDown={this.handleKeyDown}
+                    value={this.state.data}
                     type="text"
                     className="very_small_grey_text field"
                     placeholder="Название города.."
