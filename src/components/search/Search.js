@@ -11,9 +11,16 @@ class Search extends Component {
     }
 
     handleKeyDown = (e) => {
-        if (e.keyCode === 13) {
+        
+        var pattern = /^(\p{L}+\s+)+\p{L}+$/u;
+        if (e.keyCode === 13 && !pattern.test(e.target.value)) {
+            console.log(e.target.value)
             // Вызов переданного метода updateData с переданным значением
             this.props.updateData(e.target.value);
+
+        }
+        else {
+            console.log("ОШИБКА! Название города должно быть из одного слова")
         }
     }
 
