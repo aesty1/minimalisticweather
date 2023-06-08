@@ -12,7 +12,7 @@ class Search extends Component {
 
     handleKeyDown = (e) => {
         
-        var pattern = /^(\p{L}+\s+)+\p{L}+$/u;
+        var pattern = /^(\p{L}+\s*\.*\s*)+$/u;
         if (e.keyCode === 13 && !pattern.test(e.target.value)) {
             console.log(e.target.value)
             // Вызов переданного метода updateData с переданным значением
