@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 @font-face {
+    font-family: 'NotoSans-SemiBold';
+    src: url('../../fonts/TTF/NotoSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
     font-family: 'SKCuriosity-SemiBold';
     src: url('../../fonts/TTF/SKCuriosity-SemiBold.ttf') format('truetype');
 }
@@ -74,14 +78,16 @@ body {
 }
 .big_text {
   font-size: 2.5vw;
+  font-family: 'NotoSans-SemiBold', sans-serif;
 }
 .very_small_grey_text {
   color: #b4b4b4;
   font-size: 1.15vw;
-  font-family: 'SKCuriosity-SemiBold', sans-serif;
+  font-family: 'NotoSans-SemiBold', sans-serif;
 }
 .small_black_text {
   font-size: 1.20vw;
+  font-family: 'NotoSans-SemiBold', sans-serif;
 }
 .very_big_black_text {
   font-size: 5.0vw;
