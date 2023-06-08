@@ -11,17 +11,23 @@ class Search extends Component {
     }
 
     handleKeyDown = (e) => {
-        
-        var pattern = /^(\p{L}+\s*\.*\s*)+$/u;
-        if (e.keyCode === 13 && !pattern.test(e.target.value)) {
-            console.log(e.target.value)
-            // Вызов переданного метода updateData с переданным значением
-            this.props.updateData(e.target.value);
+        let word = e.target.value;
+        // Разбиваем строку на массив слов
+        var words = word.split(" ");
 
+        // Выбираем первое слово
+        var firstWord = words[0];
+
+        // Создаем новую строку, содержащую только первое слово
+        var result = firstWord;
+
+        if (e.keyCode === 13) {
+            console.log(result)
+            // Вызов переданного метода updateData с переданным значением
+            this.props.updateData(result);
+            e.target.value = "";
         }
-        else {
-            console.log("ОШИБКА! Название города должно быть из одного слова")
-        }
+       
     }
 
     render() {
