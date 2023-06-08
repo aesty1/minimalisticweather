@@ -7,8 +7,8 @@ class Weather_block extends Component {
     constructor() {
         super()
         this.state = {
-            city: 'Ufa',
-            cityCopy: 'Ufa',
+            city: 'Уфа',
+            cityCopy: 'Уфа',
             firstDayWeather: {},
             secondDayWeather: {},
             thirdDayWeather: {},
@@ -74,7 +74,7 @@ class Weather_block extends Component {
                 <div className='weather_block_info__container'>
                     <div className='weather_block_info_wrapper'>
                         <p className='weather_block_name big_text'>{this.state.cityCopy}</p>
-                        <p className='very_small_grey_text weather_block_subtitle'>Chance of rain: {this.state.chanceOfRain}%</p>
+                        <p className='very_small_grey_text weather_block_subtitle'>Вероятность осадков: {this.state.chanceOfRain}%</p>
                     </div>
 
                     <p className='weather_block_temp very_big_black_text'>{this.state.firstDayWeather.temp_c}°</p>

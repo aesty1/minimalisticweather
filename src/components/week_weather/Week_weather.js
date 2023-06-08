@@ -60,28 +60,24 @@ class Week_weather extends Component {
 
         }
         return (
-            //TODO сделать длину элментов одинаковыми
             <div className='padding blocks_wrapper grey_block_wrapper week_weather_wrapper'>
-                <p className='very_small_grey_text block_title'>Week weather</p>
+                <p className='very_small_grey_text block_title'>Погода на неделю</p>
                 <div className='week_weather_items__container'>
                     <div className='week_weather_item_wrapper'>
                         <p className='very_small_grey_text week_weather_item_text week_weather_item_day'>Today</p>
                         <img className='week_weather_item_icon small_icon' src={this.state.day_icon.get("day0")}/>
-                        <p className='small_black_text week_weather_item_text week_weather_item_description'>{this.state.day_description.get("day0")}</p>
                         <p className='small_black_text week_weather_item_text week_weather_item_temp'>{this.state.day_weather.get("day0")}</p>
                     </div>
                     <hr/>
                     <div className='week_weather_item_wrapper'>
                         <p className='very_small_grey_text week_weather_item_text week_weather_item_day'>{this.formatTime(this.state.day_date.get("day1"))}</p>
                         <img className='week_weather_item_icon small_icon' src={this.state.day_icon.get("day1")}/>
-                        <p className='small_black_text week_weather_item_text week_weather_item_description'>{this.state.day_description.get("day1")}</p>
                         <p className='small_black_text week_weather_item_text week_weather_item_temp'>{this.state.day_weather.get("day1")}</p>
                     </div>
                     <hr/>
                     <div className='week_weather_item_wrapper'>
                         <p className='very_small_grey_text week_weather_item_text week_weather_item_day'>{this.formatTime(this.state.day_date.get("day2"))}</p>
                         <img className='week_weather_item_icon small_icon' src={this.state.day_icon.get("day2")}/>
-                        <p className='small_black_text week_weather_item_text week_weather_item_description'>{this.state.day_description.get("day2")}</p>
                         <p className='small_black_text week_weather_item_text week_weather_item_temp'>{this.state.day_weather.get("day2")}</p>
                     </div>
                 </div>

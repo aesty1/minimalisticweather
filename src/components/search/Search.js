@@ -18,7 +18,7 @@ class Search extends Component {
                 <input onKeyDown={this.handleKeyDown}
                 type="text"
                 className="very_small_grey_text field"
-                placeholder="Name the city.."></input>
+                placeholder="Название города.."></input>
             </div>
         )
     }

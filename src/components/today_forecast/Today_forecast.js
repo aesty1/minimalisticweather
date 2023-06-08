@@ -40,40 +40,40 @@ class Today_forecast extends Component {
         }
         return (
             <div className='padding blocks_wrapper grey_block_wrapper today_forecast_wrapper'>
-                <p className='very_small_grey_text block_title'>Today forecast</p>
+                <p className='very_small_grey_text block_title'>Погода на сегодня</p>
                 <div className='day_weather__container'>
                     <div className='today_forecast_item'>
-                        <p className='very_small_grey_text today_forecast_item_text'>6:00 AM</p>
+                        <p className='very_small_grey_text today_forecast_item_text'>6:00</p>
                         <img className='today_forecast_icon small_icon' alt="weather" src={this.state.day_icon.get("hour6")}/>
                         <p className='small_black_text today_forecast_item_text'>{this.state.day_weather.get("hour6")}°</p>
                     </div>
                     <hr/>
                     <div className='today_forecast_item'>
-                        <p className='very_small_grey_text today_forecast_item_text'>9:00 AM</p>
+                        <p className='very_small_grey_text today_forecast_item_text'>9:00</p>
                         <img className='today_forecast_icon small_icon' alt="weather" src={this.state.day_icon.get("hour9")}/>
                         <p className='small_black_text today_forecast_item_text'>{this.state.day_weather.get("hour9")}°</p>
                     </div>
                     <hr/>
                     <div className='today_forecast_item'>
-                        <p className='very_small_grey_text today_forecast_item_text'>12:00 AM</p>
+                        <p className='very_small_grey_text today_forecast_item_text'>12:00</p>
                         <img className='today_forecast_icon small_icon' alt="weather" src={this.state.day_icon.get("hour12")}/>
                         <p className='small_black_text today_forecast_item_text'>{this.state.day_weather.get("hour12")}°</p>
                     </div>
                     <hr/>
                     <div className='today_forecast_item'>
-                        <p className='very_small_grey_text today_forecast_item_text'>15:00 AM</p>
+                        <p className='very_small_grey_text today_forecast_item_text'>15:00</p>
                         <img className='today_forecast_icon small_icon' alt="weather" src={this.state.day_icon.get("hour15")}/>
                         <p className='small_black_text today_forecast_item_text'>{this.state.day_weather.get("hour15")}°</p>
                     </div>
                     <hr/>
                     <div className='today_forecast_item'>
-                        <p className='very_small_grey_text today_forecast_item_text'>19:00 AM</p>
+                        <p className='very_small_grey_text today_forecast_item_text'>19:00</p>
                         <img className='today_forecast_icon small_icon' alt="weather" src={this.state.day_icon.get("hour19")}/>
                         <p className='small_black_text today_forecast_item_text'>{this.state.day_weather.get("hour19")}°</p>
                     </div>
                     <hr/>
                     <div className='today_forecast_item'>
-                        <p className='very_small_grey_text today_forecast_item_text'>23:00 AM</p>
+                        <p className='very_small_grey_text today_forecast_item_text'>23:00</p>
                         <img className='today_forecast_icon small_icon' alt="weather" src={this.state.day_icon.get("hour23")}/>
                         <p className='small_black_text today_forecast_item_text'>{this.state.day_weather.get("hour23")}°</p>
                     </div>
