@@ -1,0 +1,128 @@
+/*HEIGHT*/
+@media (max-height: 896px) {
+    /*WEATHER BLOCK*/
+    body .weather_block_icon__container {
+        width: 150px;
+    }
+    /*APP*/
+    body .padding {
+        padding: 20px;
+    }
+    body .gap {
+        gap: 20px;
+    }
+    /*ICON*/
+    body .small_icon {
+        width: 65px;
+    }
+    body .small_img {
+        width: 30px;
+    }
+}
+@media (max-height: 757px) {
+    /*WEATHER BLOCK*/
+    body .weather_block_icon__container {
+        width: 120px;
+    }
+    /*SEARCH*/
+    body .field__container {
+        height: 50px;
+    }
+}
+@media (max-height: 696px) {
+    /*TEXT*/
+    body .big_text {
+        font-size: 2vw;
+    }
+    body .very_small_grey_text {
+        font-size: 1vw;
+    }
+    body .small_black_text {
+        font-size: 1.05vw;
+    }
+    body .very_big_black_text {
+        font-size: 4.5vw;
+    }
+    /*ICON*/
+    body .small_icon {
+        width: 55px;
+    }
+    body .small_img {
+        width: 25px;
+    }
+}
+@media (max-height: 658px) {
+    /*TEXT*/
+    body .big_text {
+        font-size: 1.7vw;
+    }
+    body .very_small_grey_text {
+        font-size: 1vw;
+    }
+    body .small_black_text {
+        font-size: 1.05vw;
+    }
+    body .very_big_black_text {
+        font-size: 4vw;
+    }
+    /*ICON*/
+    body .small_icon {
+        width: 45px;
+    }
+    body .small_img {
+        width: 20px;
+    }
+    body .weather_block_icon__container {
+        width: 100px;
+    }
+    /*APP*/
+    body .padding {
+        padding: 15px;
+    }
+    body .gap {
+        gap: 15px;
+    }
+    body .air_conditions_item__container {
+        gap: 0px;
+    }
+}
+/*WIDTH*/
+
+
+@media (max-width: 623px) {
+    body .second_container {
+        flex-direction: column;
+    }
+    body .container {
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }
+    .week_weather_wrapper {
+
+    }
+    .second_container {
+        height: 100%;
+    }
+    /*TEXT*/
+    body .big_text {
+        font-size: 1.7vw;
+    }
+    body .very_small_grey_text {
+        font-size: 1.5vw;
+    }
+    body .small_black_text {
+        font-size: 1.55vw;
+    }
+    body .very_big_black_text {
+        font-size: 4vw;
+    }
+
+}
+@media (max-width: 480px) {
+
+}
+@media (max-width: 768px) {
+
+}
+
+

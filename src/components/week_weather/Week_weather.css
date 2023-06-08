@@ -1,0 +1,27 @@
+
+.week_weather_items__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.week_weather_item_text {
+    margin: auto 0;
+}
+.week_weather_item_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.week_weather_item_icon {
+    margin: -3px 0 auto 0;
+}
+.week_weather_item_temp {
+    width: 15%;
+}
+.week_weather_item_day {
+    width: 20%;
+}
+.week_weather_item_description {
+    width: 35%;
+}

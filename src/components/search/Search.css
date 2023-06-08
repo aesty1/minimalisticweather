@@ -1,0 +1,16 @@
+
+.field {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    background-color: #EAECEF;
+    padding-left: 10px;
+}
+.field__container {
+    display: flex;
+    height: 70px;
+    width: 100%;
+}

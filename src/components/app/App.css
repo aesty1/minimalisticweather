@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@font-face {
+    font-family: 'SKCuriosity-SemiBold';
+    src: url('../../fonts/TTF/SKCuriosity-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SKCuriosity-Regular';
+  src: url('../../fonts/TTF/SKCuriosity-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SKCuriosity-Bold';
+  src: url('../../fonts/TTF/SKCuriosity-ExtraBold.ttf') format('truetype'); 
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=PT+Sans:wght@400;700&display=swap');
+@import url('//db.onlinewebfonts.com/c/222f4351482d00e35007cfe46e33ebb9?family=Praxis-SemiBold');
+* {
+  font-family: 'SKCuriosity-Bold', sans-serif;
+  color: #202B3B;
+}
+body {
+  min-height: 1px;
+  background-image: -webkit-linear-gradient(45deg, rgb(0, 65, 139), rgb(109, 170, 251));
+  background-image: -moz-linear-gradient(45deg, rgb(0, 65, 139), rgb(109, 170, 251)); 
+  background-image: linear-gradient(45deg, rgb(0, 65, 139), rgb(109, 170, 251));  
+  background-image: -o-linear-gradient(45deg, rgb(0, 65, 139), rgb(109, 170, 251)); 
+}
+.wrapper {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  width: 80%;
+  max-height: 85vh;
+  overflow: auto;
+  background-color: #F5F5F5;
+  border-radius: 25px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 30px;
+  gap: 30px;
+  width: 100%;
+  overflow: hidden;
+}
+.blocks_wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #EAECEF;
+  border-radius: 20px;
+  padding: 30px;
+}
+.first_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  gap: 30px;
+  height: 40%;
+}
+.first_container > div, .second_container > div {
+  width: 100%;
+}
+.second_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 30px;
+  height: 60%;
+}
+.big_text {
+  font-size: 2.5vw;
+}
+.very_small_grey_text {
+  color: #b4b4b4;
+  font-size: 1.15vw;
+  font-family: 'SKCuriosity-SemiBold', sans-serif;
+}
+.small_black_text {
+  font-size: 1.20vw;
+}
+.very_big_black_text {
+  font-size: 5.0vw;
+}
+.big_blocks__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  min-width: 65%;
+}
+.big_blocks__container > div:not(:first-child)  {
+  max-height: 30%;
+}
+.small_icon {
+  width: 85px;
+}
+.small_img {
+  width: 40px;
+}
