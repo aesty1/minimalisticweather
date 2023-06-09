@@ -10,6 +10,7 @@ class Weather_block extends Component {
         this.state = {
             city: 'Уфа',
             cityCopy: 'Уфа',
+            theTrueCity: 'Уфа',
             firstDayWeather: {},
             secondDayWeather: {},
             thirdDayWeather: {},
@@ -31,6 +32,7 @@ class Weather_block extends Component {
                 ) {
                     this.setState({
                         firstDayWeather: result.firstDayWeather.current,
+                        theTrueCity: result.firstDayWeather.location.name,
                         secondDayWeather: result.secondDayWeather.current,
                         thirdDayWeather: result.thirdDayWeather.current,
                     });
@@ -82,7 +84,7 @@ class Weather_block extends Component {
             <div className='weather_block'>
                 <div className='weather_block_info__container'>
                     <div className='weather_block_info_wrapper'>
-                        <p className='weather_block_name big_text'>{this.state.cityCopy}</p>
+                        <p className='weather_block_name big_text'>{this.state.theTrueCity}</p>
                         <p className='very_small_grey_text weather_block_subtitle'>
                             Вероятность осадков: {this.state.chanceOfRain}%
                         </p>
