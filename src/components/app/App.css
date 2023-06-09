@@ -82,15 +82,15 @@ body {
 }
 .very_small_grey_text {
   color: #b4b4b4;
-  font-size: 1.15vw;
+  font-size: 0.95vw;
   font-family: 'NotoSans-SemiBold', sans-serif;
 }
 .small_black_text {
-  font-size: 1.20vw;
+  font-size: 1vw;
   font-family: 'NotoSans-SemiBold', sans-serif;
 }
 .very_big_black_text {
-  font-size: 5.0vw;
+  font-size: 3.0vw;
 }
 .big_blocks__container {
   display: flex;

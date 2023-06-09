@@ -22,8 +22,8 @@
     flex-direction: column;
 }
 .weather_block_icon__container {
-    margin: auto 40px auto 0;
-    width: 180px;
+    margin: auto 30px auto 0;
+    width: 130px;
     max-width: 100%;
 }
 .weather_block_icon {

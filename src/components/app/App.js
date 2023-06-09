@@ -10,7 +10,7 @@ import { Component } from 'react';
 
 class App extends Component {
   state = {
-    data: "Ufa",
+    data: "Уфа",
     bg_color: 'red'
   }
 
